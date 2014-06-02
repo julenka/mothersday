@@ -1,0 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en">
+<head>
+<title>Exercise Log for {{ user }} </title>
+</head>
+<body>
+<h1>Exercise log for {{ user }} </h1>
+{% for line in data %}
+<div>{{ line }}</div>
+{% endfor %}
+</body>
+</html>
