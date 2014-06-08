@@ -41,7 +41,7 @@ def send_sms(body):
         body=body,
         to=to_phone,
         from_=from_phone)
-    print 'send_sms result: %s' % result
+    print 'send_sms % result: %s' % (body, result)
     return result
 
 send_sms("Exercise time! Here's a quote to motivate you:")
